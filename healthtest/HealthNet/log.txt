@@ -1,0 +1,759 @@
+User kushrana2020 registered a new account - logged on: 02/17/20 @ 14:56:14
+User kushrana2020 logged out - logged on: 02/17/20 @ 14:57:14
+User kushrana2020 logged in - logged on: 02/17/20 @ 14:57:33
+User kushrana2020 logged out - logged on: 02/17/20 @ 14:57:36
+User admin changed their password - logged on: 02/17/20 @ 15:17:42
+User admin logged in - logged on: 02/17/20 @ 15:17:53
+Administrator admin registered a new doctor account - logged on: 02/17/20 @ 15:19:34
+User admin logged out - logged on: 02/17/20 @ 15:20:02
+User kushrana2019 logged in - logged on: 02/17/20 @ 15:20:16
+Doctor kushrana2019 created a new test for Patient admin - logged on: 02/17/20 @ 15:21:23
+Patient admin's test results were released by Doctor kushrana2019 - logged on: 02/17/20 @ 15:21:29
+User kushrana2019 created an appointment @ hosp on 03.19.2020,07:30 AM - logged on: 02/17/20 @ 15:22:40
+Doctor kushrana2019 created a prescription for Patient kush@123 - logged on: 02/17/20 @ 15:23:12
+User kushrana2019 logged out - logged on: 02/17/20 @ 15:27:55
+User admin logged in - logged on: 02/17/20 @ 15:37:01
+User admin logged out - logged on: 02/17/20 @ 15:42:49
+User admin logged in - logged on: 02/17/20 @ 16:39:09
+User admin logged in - logged on: 02/17/20 @ 16:42:07
+User kushrana2020 changed their password - logged on: 02/17/20 @ 16:47:17
+User kushrana2020 logged in - logged on: 02/17/20 @ 16:47:38
+User kushrana2019 changed their password - logged on: 02/17/20 @ 16:48:24
+User kushrana2019 logged in - logged on: 02/17/20 @ 16:48:47
+User kushrana2019 logged in - logged on: 02/17/20 @ 16:49:27
+User kushrana2019 logged in - logged on: 02/17/20 @ 16:50:11
+User kushrana2019 logged in - logged on: 02/17/20 @ 16:50:59
+User kushrana2019 logged out - logged on: 02/17/20 @ 16:51:32
+User kushrana2019 logged in - logged on: 02/17/20 @ 16:53:38
+User kushrana2019 logged in - logged on: 02/17/20 @ 16:54:12
+User kushrana2019 logged out - logged on: 02/17/20 @ 16:54:22
+User admin logged in - logged on: 02/18/20 @ 12:55:24
+User admin logged in - logged on: 02/18/20 @ 12:55:38
+User admin logged in - logged on: 02/18/20 @ 12:59:11
+User kush1 registered a new account - logged on: 02/21/20 @ 14:20:46
+User kush1 logged in - logged on: 02/21/20 @ 14:29:22
+User  logged out - logged on: 02/21/20 @ 14:33:17
+User  logged out - logged on: 02/21/20 @ 14:33:23
+User  logged out - logged on: 02/21/20 @ 14:33:27
+User kush1 logged in - logged on: 02/21/20 @ 14:34:27
+User kush1 logged in - logged on: 02/21/20 @ 14:36:06
+User kush1 logged in - logged on: 02/21/20 @ 14:38:01
+User kush1 logged out - logged on: 02/21/20 @ 14:38:12
+User  logged out - logged on: 02/21/20 @ 14:38:21
+User kush1 logged in - logged on: 02/21/20 @ 14:38:36
+User kush1 logged in - logged on: 02/21/20 @ 14:40:06
+User kush1 logged in - logged on: 02/21/20 @ 21:14:28
+User kush1 logged in - logged on: 02/21/20 @ 21:38:40
+User  logged out - logged on: 02/21/20 @ 21:53:45
+User kush1 logged in - logged on: 02/21/20 @ 21:53:56
+User  logged out - logged on: 02/21/20 @ 21:58:00
+User kush1 logged in - logged on: 02/21/20 @ 21:58:10
+User kush1 logged in - logged on: 02/21/20 @ 21:59:48
+User kush1 logged in - logged on: 02/21/20 @ 22:00:03
+User kush1 logged in - logged on: 02/21/20 @ 22:01:28
+User kush1 logged in - logged on: 02/21/20 @ 22:02:48
+User kush1 logged in - logged on: 02/21/20 @ 22:03:42
+User kush1 logged in - logged on: 02/22/20 @ 07:03:15
+User kush1 logged in - logged on: 02/22/20 @ 07:10:23
+User kush1 logged in - logged on: 02/22/20 @ 07:13:12
+User kush1 logged in - logged on: 02/22/20 @ 07:14:37
+User  logged out - logged on: 02/22/20 @ 07:15:47
+User kush1 logged in - logged on: 02/22/20 @ 07:15:58
+User  logged out - logged on: 02/22/20 @ 07:17:17
+User kush1 logged in - logged on: 02/22/20 @ 07:17:25
+User  logged out - logged on: 02/22/20 @ 07:18:52
+User kush1 logged in - logged on: 02/22/20 @ 07:19:01
+User  logged out - logged on: 02/22/20 @ 09:15:12
+User adminA logged in - logged on: 02/22/20 @ 09:20:29
+User  logged out - logged on: 02/22/20 @ 09:31:21
+User adminA logged in - logged on: 02/22/20 @ 09:31:28
+User adminA logged in - logged on: 02/22/20 @ 09:43:40
+User  logged out - logged on: 02/22/20 @ 10:12:31
+User adminA logged in - logged on: 02/22/20 @ 10:12:39
+User  logged out - logged on: 02/22/20 @ 11:20:31
+User adminA logged in - logged on: 02/22/20 @ 11:20:46
+User adityalab logged in - logged on: 02/22/20 @ 11:37:05
+User adityalab logged out - logged on: 02/22/20 @ 11:37:16
+User adityalab logged in - logged on: 02/22/20 @ 11:58:48
+User adityalab logged in - logged on: 02/22/20 @ 11:59:20
+User adityalab logged in - logged on: 02/22/20 @ 11:59:57
+User adityalab logged out - logged on: 02/22/20 @ 11:59:58
+User adityalab logged in - logged on: 02/22/20 @ 12:00:09
+User adityalab logged out - logged on: 02/22/20 @ 12:00:10
+User adityalab logged in - logged on: 02/22/20 @ 12:02:51
+User adityalab logged in - logged on: 02/22/20 @ 12:04:00
+User adityalab logged out - logged on: 02/22/20 @ 12:04:00
+User adityalab logged in - logged on: 02/22/20 @ 12:42:24
+User kushpat registered a new account - logged on: 02/22/20 @ 14:35:49
+User  logged out - logged on: 02/22/20 @ 14:41:44
+User kushpat logged in - logged on: 02/22/20 @ 14:41:56
+User kushpat logged out - logged on: 02/22/20 @ 14:47:53
+User kushpat logged in - logged on: 02/22/20 @ 14:48:14
+User  logged out - logged on: 02/22/20 @ 14:55:05
+User kushpat logged in - logged on: 02/22/20 @ 14:55:17
+User adminA logged in - logged on: 02/22/20 @ 16:16:50
+User kushpat logged in - logged on: 02/22/20 @ 20:46:10
+User kushpat logged out - logged on: 02/22/20 @ 20:46:25
+User adminA logged in - logged on: 02/22/20 @ 20:46:40
+User adminA logged in - logged on: 02/22/20 @ 20:49:51
+User adminA logged in - logged on: 02/23/20 @ 10:42:22
+Administrator adminA registered a new doctor account - logged on: 02/23/20 @ 10:43:08
+User adminA logged in - logged on: 02/23/20 @ 10:52:20
+User adminA logged in - logged on: 02/23/20 @ 10:56:51
+User adminA logged in - logged on: 02/23/20 @ 10:58:54
+Administrator adminA registered a new Administrator account - logged on: 02/23/20 @ 11:00:47
+User adminA logged out - logged on: 02/23/20 @ 11:00:51
+User lab1 logged in - logged on: 02/23/20 @ 11:01:01
+User adminA logged in - logged on: 02/23/20 @ 11:01:19
+User adminA logged in - logged on: 02/23/20 @ 11:04:15
+Administrator adminA registered a new Administrator account - logged on: 02/23/20 @ 11:05:48
+User adminA logged out - logged on: 02/23/20 @ 11:05:52
+User adminA logged in - logged on: 02/23/20 @ 11:40:40
+Administrator adminA registered a new Administrator account - logged on: 02/23/20 @ 11:41:18
+User adminA logged out - logged on: 02/23/20 @ 11:41:21
+User adminA logged in - logged on: 02/23/20 @ 11:43:21
+User adminA logged in - logged on: 02/23/20 @ 11:44:54
+Administrator adminA registered a new Administrator account - logged on: 02/23/20 @ 11:45:26
+User adminA logged out - logged on: 02/23/20 @ 11:45:29
+User adminA logged in - logged on: 02/23/20 @ 12:14:46
+Administrator adminA registered a new Administrator account - logged on: 02/23/20 @ 12:15:18
+User adminA logged out - logged on: 02/23/20 @ 12:15:21
+User medical2 logged out - logged on: 02/23/20 @ 12:16:10
+User adminA logged in - logged on: 02/23/20 @ 12:16:18
+User adminA logged in - logged on: 02/23/20 @ 12:26:57
+User  logged out - logged on: 02/23/20 @ 12:33:54
+User adminA logged in - logged on: 02/23/20 @ 12:34:04
+User  logged out - logged on: 02/23/20 @ 13:13:22
+User adminA logged in - logged on: 02/23/20 @ 13:13:28
+Administrator adminA- registered a new medical account - logged on: 02/23/20 @ 13:14:14
+User adminA logged out - logged on: 02/23/20 @ 13:14:17
+User adminA logged in - logged on: 02/23/20 @ 13:14:25
+User adminA logged in - logged on: 02/23/20 @ 13:16:35
+User adminA logged in - logged on: 02/23/20 @ 13:19:16
+Administrator adminA- registered a new medical account - logged on: 02/23/20 @ 13:19:42
+User adminA logged in - logged on: 02/23/20 @ 13:21:46
+User adminA logged in - logged on: 02/23/20 @ 13:26:39
+User adminA logged in - logged on: 02/23/20 @ 13:33:56
+Administrator adminA - laba registered a new lab account - logged on: 02/23/20 @ 13:34:30
+User  logged out - logged on: 02/23/20 @ 13:37:13
+User adminA logged in - logged on: 02/23/20 @ 13:37:20
+Administrator adminA - labb registered a new lab account - logged on: 02/23/20 @ 13:37:54
+User adminA logged out - logged on: 02/23/20 @ 13:38:54
+User adminA logged in - logged on: 02/23/20 @ 13:39:28
+Administrator adminA -  registered a new medical account - logged on: 02/23/20 @ 13:40:01
+User adminA logged out - logged on: 02/23/20 @ 13:40:21
+User adminA logged in - logged on: 02/23/20 @ 13:42:15
+User adminA logged in - logged on: 02/23/20 @ 13:45:12
+User adminA logged in - logged on: 02/23/20 @ 13:46:32
+User adminA logged in - logged on: 02/23/20 @ 15:28:16
+User adminA logged out - logged on: 02/23/20 @ 15:28:38
+User adminA logged in - logged on: 02/23/20 @ 15:28:50
+User  logged out - logged on: 02/23/20 @ 15:29:34
+User adminA logged in - logged on: 02/23/20 @ 15:42:42
+User  logged out - logged on: 02/23/20 @ 15:45:16
+User kush1 registered a new account - logged on: 02/23/20 @ 15:47:15
+User  logged out - logged on: 02/23/20 @ 16:24:59
+User kush3 registered a new account - logged on: 02/23/20 @ 16:30:04
+User kush4 registered a new account - logged on: 02/23/20 @ 16:31:20
+User kush4 logged out - logged on: 02/23/20 @ 16:33:07
+User adminA logged in - logged on: 02/23/20 @ 16:33:15
+User meda logged in - logged on: 02/23/20 @ 16:35:16
+User meda logged out - logged on: 02/23/20 @ 16:35:17
+User meda logged in - logged on: 02/23/20 @ 16:35:30
+User meda logged out - logged on: 02/23/20 @ 16:35:31
+User meda logged in - logged on: 02/23/20 @ 16:36:06
+User meda logged out - logged on: 02/23/20 @ 16:36:12
+User kush4 logged in - logged on: 02/23/20 @ 16:36:25
+User kush4 logged out - logged on: 02/23/20 @ 16:36:37
+User adminA logged in - logged on: 02/23/20 @ 16:43:21
+Administrator adminA -  registered a new medical account - logged on: 02/23/20 @ 16:44:08
+User adminA logged in - logged on: 02/23/20 @ 16:46:29
+Administrator adminA - labo registered a new lab account - logged on: 02/23/20 @ 16:49:01
+User adminA logged in - logged on: 02/23/20 @ 16:54:27
+User adminA logged in - logged on: 02/23/20 @ 17:03:56
+Administrator adminA - abcd registered a new medical account - logged on: 02/23/20 @ 17:05:59
+User kush1 registered a new account - logged on: 02/23/20 @ 17:35:40
+User  logged out - logged on: 02/23/20 @ 18:09:23
+User adminA logged in - logged on: 02/23/20 @ 18:27:35
+User adminA logged out - logged on: 02/23/20 @ 18:28:05
+User adminA logged in - logged on: 02/23/20 @ 20:22:31
+Administrator adminA registered a new doctor account - logged on: 02/23/20 @ 20:24:16
+User adminA logged in - logged on: 02/23/20 @ 20:45:29
+Administrator adminA registered a new doctor account - logged on: 02/23/20 @ 20:46:39
+User adminA logged in - logged on: 02/24/20 @ 10:40:49
+User adminA logged out - logged on: 02/24/20 @ 10:49:11
+User varshil1 registered a new account - logged on: 02/24/20 @ 10:51:44
+User varshil1 logged out - logged on: 02/24/20 @ 10:55:08
+User adminA logged in - logged on: 02/24/20 @ 13:16:10
+User adminA logged in - logged on: 02/24/20 @ 13:17:17
+User adminA logged in - logged on: 02/24/20 @ 13:25:34
+User  logged out - logged on: 02/24/20 @ 13:28:56
+User adminA logged in - logged on: 02/24/20 @ 13:29:04
+User adminA logged in - logged on: 02/24/20 @ 13:34:42
+User  logged out - logged on: 02/24/20 @ 14:44:12
+User adminA logged in - logged on: 02/24/20 @ 14:46:16
+User adminA logged in - logged on: 02/24/20 @ 14:46:55
+User adminA logged in - logged on: 02/24/20 @ 14:48:43
+User adminA logged in - logged on: 02/24/20 @ 14:49:15
+User  logged out - logged on: 02/24/20 @ 14:49:52
+User adminA logged in - logged on: 02/24/20 @ 14:50:03
+User adminA logged in - logged on: 02/24/20 @ 14:57:07
+User adminA logged out - logged on: 02/24/20 @ 14:57:35
+User kush1 registered a new account - logged on: 02/24/20 @ 14:59:51
+User kush1 logged out - logged on: 02/24/20 @ 15:00:01
+User kush1 logged in - logged on: 02/24/20 @ 15:00:17
+User kush1 logged out - logged on: 02/24/20 @ 15:00:31
+User kush1 logged in - logged on: 02/24/20 @ 15:09:00
+User kush1 logged in - logged on: 02/24/20 @ 15:10:01
+User kush1 logged out - logged on: 02/24/20 @ 15:10:01
+User kush11 registered a new account - logged on: 02/24/20 @ 16:43:23
+User kush11 logged out - logged on: 02/24/20 @ 16:43:28
+User kush1 registered a new account - logged on: 02/24/20 @ 16:47:40
+User kush1 logged out - logged on: 02/24/20 @ 16:47:44
+User kush registered a new account - logged on: 02/24/20 @ 16:51:21
+User kush logged out - logged on: 02/24/20 @ 16:51:25
+User kush12 registered a new account - logged on: 02/24/20 @ 16:54:50
+User kush12 logged out - logged on: 02/24/20 @ 16:54:55
+User kush1 registered a new account - logged on: 02/24/20 @ 18:48:44
+User kush1 logged out - logged on: 02/24/20 @ 18:48:56
+User kush2 registered a new account - logged on: 02/24/20 @ 18:51:06
+User kush2 logged out - logged on: 02/24/20 @ 18:51:15
+User kush1 logged in - logged on: 02/24/20 @ 20:00:29
+User kush1 logged out - logged on: 02/24/20 @ 20:00:33
+User kush1 logged in - logged on: 02/24/20 @ 20:58:36
+User kush1 logged out - logged on: 02/24/20 @ 20:58:49
+User adminA logged in - logged on: 02/24/20 @ 21:27:54
+User adminA logged in - logged on: 02/24/20 @ 21:31:44
+User adminA logged in - logged on: 02/24/20 @ 21:38:08
+User adminA logged in - logged on: 02/24/20 @ 21:43:18
+User doc1 registered a new account - logged on: 02/24/20 @ 21:45:45
+User doc2 registered a new account - logged on: 02/24/20 @ 21:48:48
+User doc1 logged in - logged on: 02/25/20 @ 10:48:35
+User doc1 logged in - logged on: 02/25/20 @ 10:56:00
+User doc1 logged out - logged on: 02/25/20 @ 10:59:13
+User pat1 registered a new account - logged on: 02/25/20 @ 11:02:50
+User pat1 logged out - logged on: 02/25/20 @ 11:02:57
+User pat1 logged in - logged on: 02/25/20 @ 11:03:16
+User  logged out - logged on: 02/25/20 @ 11:20:13
+User doc1 logged in - logged on: 02/25/20 @ 11:20:29
+User  logged out - logged on: 02/25/20 @ 11:21:08
+User doc1 logged in - logged on: 02/25/20 @ 11:21:21
+User doc1 created an appointment @ hosp1 on 04.01.2021,01:00 AM - logged on: 02/25/20 @ 11:21:49
+User doc1 cancelled Appointment #1 - logged on: 02/25/20 @ 11:22:05
+User  logged out - logged on: 02/25/20 @ 11:27:03
+User doc1 logged in - logged on: 02/25/20 @ 11:27:40
+User doc1 created an appointment @ hosp1 on 02.25.2020,11:30 AM - logged on: 02/25/20 @ 11:29:04
+User doc1 cancelled Appointment #2 - logged on: 02/25/20 @ 11:30:46
+User doc1 logged in - logged on: 02/25/20 @ 11:43:11
+User doc1 created an appointment @ hosp1 on 02.25.2021,12:00 AM - logged on: 02/25/20 @ 11:43:45
+User doc1 logged in - logged on: 02/25/20 @ 11:45:43
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 11:45:51
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 11:46:38
+User  logged out - logged on: 02/25/20 @ 11:47:27
+User doc1 logged in - logged on: 02/25/20 @ 11:47:41
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 11:47:46
+User  logged out - logged on: 02/25/20 @ 11:49:17
+User doc1 logged in - logged on: 02/25/20 @ 11:49:38
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 11:49:42
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 11:49:46
+User  logged out - logged on: 02/25/20 @ 11:52:52
+User doc1 logged in - logged on: 02/25/20 @ 11:53:08
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 11:53:24
+User  logged out - logged on: 02/25/20 @ 12:33:15
+User doc1 logged in - logged on: 02/25/20 @ 12:33:34
+User doc1 created an appointment @ hosp1 on 02.25.2020,01:00 PM - logged on: 02/25/20 @ 12:34:12
+User  logged out - logged on: 02/25/20 @ 12:40:49
+User doc1 logged in - logged on: 02/25/20 @ 12:41:04
+User doc1 created an appointment @ hosp1 on 02.25.2020,01:30 PM - logged on: 02/25/20 @ 12:41:28
+User  logged out - logged on: 02/25/20 @ 12:42:43
+User doc1 logged in - logged on: 02/25/20 @ 12:43:40
+User  logged out - logged on: 02/25/20 @ 12:44:45
+User doc1 logged in - logged on: 02/25/20 @ 12:45:24
+User doc1 logged in - logged on: 02/25/20 @ 12:50:29
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 12:50:34
+User doc1 logged in - logged on: 02/25/20 @ 12:55:09
+User doc1 cancelled Appointment #3 - logged on: 02/25/20 @ 12:55:13
+User pat1 logged in - logged on: 02/25/20 @ 13:35:44
+User pat1 logged out - logged on: 02/25/20 @ 13:35:54
+User doc1 logged in - logged on: 02/25/20 @ 13:36:18
+User doc1 logged in - logged on: 02/25/20 @ 13:59:45
+User doc1 logged in - logged on: 02/25/20 @ 14:06:27
+User doc1 logged in - logged on: 02/25/20 @ 14:13:57
+User doc1 logged in - logged on: 02/25/20 @ 14:17:13
+User doc1 logged in - logged on: 02/25/20 @ 14:17:57
+User doc1 logged in - logged on: 02/25/20 @ 14:23:48
+User doc1 logged in - logged on: 02/25/20 @ 14:26:53
+User doc1 logged in - logged on: 02/25/20 @ 14:34:10
+User doc1 logged in - logged on: 02/25/20 @ 14:42:46
+User doc1 logged in - logged on: 02/25/20 @ 14:46:15
+User  logged out - logged on: 02/25/20 @ 14:51:59
+User doc1 logged in - logged on: 02/25/20 @ 14:52:16
+User doc1 logged in - logged on: 02/25/20 @ 14:54:43
+User  logged out - logged on: 02/25/20 @ 14:56:21
+User doc1 logged in - logged on: 02/25/20 @ 14:56:32
+User  logged out - logged on: 02/25/20 @ 14:59:47
+User doc1 logged in - logged on: 02/25/20 @ 14:59:59
+User  logged out - logged on: 02/25/20 @ 15:00:26
+User doc1 logged in - logged on: 02/25/20 @ 15:00:39
+User  logged out - logged on: 02/25/20 @ 15:20:59
+User doc1 logged in - logged on: 02/25/20 @ 15:21:14
+User doc1 logged in - logged on: 02/25/20 @ 15:22:59
+User  logged out - logged on: 02/25/20 @ 15:27:53
+User doc1 logged in - logged on: 02/25/20 @ 15:28:06
+User doc1 logged in - logged on: 02/25/20 @ 15:32:07
+User doc1 logged in - logged on: 02/25/20 @ 15:36:51
+User doc1 logged in - logged on: 02/25/20 @ 15:41:56
+User doc1 logged in - logged on: 02/25/20 @ 15:45:46
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/25/20 @ 15:46:29
+User  logged out - logged on: 02/25/20 @ 16:13:05
+User pat1 logged in - logged on: 02/25/20 @ 16:13:26
+User pat1 logged in - logged on: 02/25/20 @ 16:18:05
+User pat1 logged in - logged on: 02/25/20 @ 16:19:08
+User pat1 logged in - logged on: 02/25/20 @ 16:24:07
+User pat1 logged in - logged on: 02/25/20 @ 16:26:03
+User  logged out - logged on: 02/25/20 @ 16:31:59
+User pat1 logged in - logged on: 02/25/20 @ 16:32:22
+User pat1 logged in - logged on: 02/25/20 @ 16:48:43
+User  logged out - logged on: 02/25/20 @ 16:52:46
+User pat1 logged in - logged on: 02/25/20 @ 16:52:58
+User  logged out - logged on: 02/25/20 @ 16:55:35
+User pat1 logged in - logged on: 02/25/20 @ 16:55:51
+User  logged out - logged on: 02/25/20 @ 16:57:37
+User pat1 logged in - logged on: 02/25/20 @ 16:57:50
+User pat1 logged in - logged on: 02/25/20 @ 17:01:10
+User pat1 logged in - logged on: 02/25/20 @ 17:06:35
+User pat1 logged in - logged on: 02/25/20 @ 17:10:15
+User pat1 logged in - logged on: 02/25/20 @ 18:02:08
+User pat1 logged in - logged on: 02/25/20 @ 18:03:09
+User pat1 logged in - logged on: 02/25/20 @ 18:10:46
+User doc1 logged in - logged on: 02/25/20 @ 21:38:37
+User doc1 logged in - logged on: 02/25/20 @ 22:29:56
+User doc1 logged in - logged on: 02/25/20 @ 22:52:44
+User doc1 logged in - logged on: 02/26/20 @ 10:40:48
+User doc1 logged in - logged on: 02/26/20 @ 10:41:43
+User doc1 logged in - logged on: 02/26/20 @ 10:42:36
+User doc1 logged in - logged on: 02/26/20 @ 10:45:22
+User doc1 logged in - logged on: 02/26/20 @ 10:46:25
+User doc1 logged in - logged on: 02/26/20 @ 10:48:20
+User doc1 logged in - logged on: 02/26/20 @ 10:49:59
+User doc1 logged in - logged on: 02/26/20 @ 10:51:39
+User  logged out - logged on: 02/26/20 @ 11:14:55
+User doc1 logged in - logged on: 02/26/20 @ 11:15:12
+User  logged out - logged on: 02/26/20 @ 11:24:04
+User doc1 logged in - logged on: 02/26/20 @ 11:24:16
+User doc1 logged in - logged on: 02/26/20 @ 11:41:53
+User doc1 logged in - logged on: 02/26/20 @ 11:42:40
+User doc1 logged in - logged on: 02/26/20 @ 11:43:26
+User doc1 logged in - logged on: 02/26/20 @ 11:55:10
+User  logged out - logged on: 02/26/20 @ 13:53:53
+User doc1 logged in - logged on: 02/26/20 @ 13:54:08
+User doc1 logged out - logged on: 02/26/20 @ 14:11:27
+User adminA logged in - logged on: 02/26/20 @ 14:12:07
+Administrator adminA - med1 registered a new medical account - logged on: 02/26/20 @ 14:13:10
+User adminA logged out - logged on: 02/26/20 @ 14:13:29
+User med1 logged in - logged on: 02/26/20 @ 14:13:56
+User med1 logged out - logged on: 02/26/20 @ 14:15:04
+User med1 logged in - logged on: 02/26/20 @ 14:15:17
+User  logged out - logged on: 02/26/20 @ 14:19:04
+User med1 logged in - logged on: 02/26/20 @ 14:19:16
+User  logged out - logged on: 02/26/20 @ 14:20:20
+User med1 logged in - logged on: 02/26/20 @ 14:20:44
+User  logged out - logged on: 02/26/20 @ 14:22:38
+User med1 logged in - logged on: 02/26/20 @ 14:23:00
+User  logged out - logged on: 02/26/20 @ 14:23:48
+User med1 logged in - logged on: 02/26/20 @ 14:24:06
+User med1 logged out - logged on: 02/26/20 @ 14:26:40
+User adminA logged in - logged on: 02/26/20 @ 14:26:56
+Administrator adminA - lab1 registered a new lab account - logged on: 02/26/20 @ 14:28:11
+User adminA logged out - logged on: 02/26/20 @ 14:28:14
+User lab1 logged in - logged on: 02/26/20 @ 14:28:29
+User  logged out - logged on: 02/26/20 @ 14:57:01
+User adminA logged in - logged on: 02/26/20 @ 15:13:38
+User adminA logged in - logged on: 02/26/20 @ 15:52:17
+User adminA logged out - logged on: 02/26/20 @ 15:52:55
+User pat1 logged in - logged on: 02/26/20 @ 15:53:12
+User pat1 logged out - logged on: 02/26/20 @ 15:53:19
+User doc1 logged in - logged on: 02/26/20 @ 15:53:34
+User doc1 created an appointment @ hosp1 on 02.26.2020,04:00 PM - logged on: 02/26/20 @ 15:54:06
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/26/20 @ 15:54:32
+User  logged out - logged on: 02/26/20 @ 15:58:46
+User doc1 logged in - logged on: 02/26/20 @ 15:58:57
+User  logged out - logged on: 02/26/20 @ 16:15:37
+User doc1 logged in - logged on: 02/26/20 @ 16:15:50
+User doc1 logged in - logged on: 02/26/20 @ 16:22:11
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/26/20 @ 16:24:40
+User  cancelled Appointment #3 - logged on: 02/26/20 @ 16:31:00
+User doc1 logged in - logged on: 02/26/20 @ 16:31:14
+User doc1 cancelled Appointment #6 - logged on: 02/26/20 @ 16:31:24
+User  logged out - logged on: 02/26/20 @ 16:39:47
+User doc1 logged in - logged on: 02/26/20 @ 16:39:59
+User  logged out - logged on: 02/26/20 @ 16:44:04
+User doc1 logged in - logged on: 02/26/20 @ 16:44:19
+User doc1 logged in - logged on: 02/26/20 @ 16:45:25
+User  logged out - logged on: 02/26/20 @ 16:50:08
+User doc1 logged in - logged on: 02/26/20 @ 16:51:22
+User doc1 created an appointment @ hosp1 on 02.26.2020,08:00 AM - logged on: 02/26/20 @ 16:52:10
+User doc1 created an appointment @ hosp1 on 04.25.2020,08:30 AM - logged on: 02/26/20 @ 16:52:37
+User  logged out - logged on: 02/26/20 @ 16:55:05
+User doc1 logged in - logged on: 02/26/20 @ 16:55:23
+User doc1 logged in - logged on: 02/26/20 @ 16:57:35
+User doc1 logged in - logged on: 02/26/20 @ 16:59:50
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/26/20 @ 17:00:09
+User doc1 logged out - logged on: 02/26/20 @ 17:00:28
+User pat1 logged in - logged on: 02/26/20 @ 17:00:59
+User  logged out - logged on: 02/26/20 @ 17:10:35
+User pat1 logged in - logged on: 02/26/20 @ 17:10:47
+User  logged out - logged on: 02/26/20 @ 17:12:00
+User pat1 logged in - logged on: 02/26/20 @ 17:12:13
+User pat1 logged in - logged on: 02/26/20 @ 17:13:39
+User pat1 logged in - logged on: 02/26/20 @ 17:14:50
+User doc1 logged in - logged on: 02/26/20 @ 17:15:52
+User doc1 logged out - logged on: 02/26/20 @ 17:17:21
+User pat1 logged in - logged on: 02/26/20 @ 17:17:34
+User pat1 logged in - logged on: 02/26/20 @ 17:24:21
+User pat1 logged out - logged on: 02/26/20 @ 17:24:38
+User pat1 logged in - logged on: 02/26/20 @ 17:25:11
+Patient pat1 sent a message to doc1 - logged on: 02/26/20 @ 17:25:59
+User pat1 logged out - logged on: 02/26/20 @ 17:26:06
+User doc1 logged in - logged on: 02/26/20 @ 17:26:21
+User doc1 logged in - logged on: 02/26/20 @ 17:30:44
+User  logged out - logged on: 02/26/20 @ 17:36:40
+User doc1 logged in - logged on: 02/26/20 @ 17:36:55
+User  logged out - logged on: 02/26/20 @ 17:39:52
+User doc1 logged in - logged on: 02/26/20 @ 17:40:04
+User doc1 logged in - logged on: 02/27/20 @ 06:29:10
+User  logged out - logged on: 02/27/20 @ 06:32:03
+User doc1 logged in - logged on: 02/27/20 @ 06:32:18
+User  logged out - logged on: 02/27/20 @ 06:34:50
+User doc1 logged in - logged on: 02/27/20 @ 06:35:04
+User  logged out - logged on: 02/27/20 @ 06:41:55
+User doc1 logged in - logged on: 02/27/20 @ 06:42:09
+User  logged out - logged on: 02/27/20 @ 06:42:55
+User doc1 logged in - logged on: 02/27/20 @ 06:43:07
+User doc1 logged in - logged on: 02/27/20 @ 06:52:40
+User doc1 logged in - logged on: 02/27/20 @ 08:53:39
+User doc1 logged in - logged on: 02/27/20 @ 09:01:40
+User doc1 logged in - logged on: 02/27/20 @ 09:04:50
+User doc1 logged in - logged on: 02/27/20 @ 09:06:10
+User doc1 updated their profile information - logged on: 02/27/20 @ 09:06:24
+User doc1 logged in - logged on: 02/27/20 @ 09:11:52
+User doc1 logged in - logged on: 02/27/20 @ 10:14:30
+User doc1 logged in - logged on: 02/27/20 @ 10:22:22
+User doc1 logged out - logged on: 02/27/20 @ 10:24:00
+User pat1 logged in - logged on: 02/27/20 @ 10:24:15
+User  logged out - logged on: 02/27/20 @ 10:35:27
+User doc1 logged in - logged on: 02/27/20 @ 10:35:47
+User doc1 logged in - logged on: 02/27/20 @ 10:38:37
+User doc1 logged in - logged on: 02/27/20 @ 10:41:18
+User doc1 logged in - logged on: 02/27/20 @ 10:41:50
+User doc1 logged in - logged on: 02/27/20 @ 10:45:34
+User  logged out - logged on: 02/27/20 @ 11:00:23
+User doc1 logged in - logged on: 02/27/20 @ 11:10:27
+User doc1 logged in - logged on: 02/27/20 @ 12:34:34
+User doc1 logged out - logged on: 02/27/20 @ 12:34:46
+User pat1 logged in - logged on: 02/27/20 @ 12:35:23
+User pat1 logged out - logged on: 02/27/20 @ 12:35:40
+User doc1 logged in - logged on: 02/27/20 @ 12:35:53
+User doc1 logged out - logged on: 02/27/20 @ 12:40:14
+User doc2 logged in - logged on: 02/27/20 @ 12:40:25
+User doc2 logged out - logged on: 02/27/20 @ 12:40:42
+User pat2 registered a new account - logged on: 02/27/20 @ 12:42:19
+User pat2 logged in - logged on: 02/27/20 @ 12:42:55
+User pat2 logged out - logged on: 02/27/20 @ 12:43:03
+User doc2 logged in - logged on: 02/27/20 @ 12:43:15
+User doc2 logged in - logged on: 02/27/20 @ 12:50:05
+User doc2 logged in - logged on: 02/27/20 @ 13:45:02
+User doc2 logged in - logged on: 02/27/20 @ 13:48:39
+User doc2 logged in - logged on: 02/27/20 @ 13:51:11
+User doc2 logged in - logged on: 02/27/20 @ 13:53:39
+User doc2 logged in - logged on: 02/27/20 @ 13:54:44
+User doc2 logged in - logged on: 02/27/20 @ 13:55:35
+User doc2 logged in - logged on: 02/27/20 @ 14:03:21
+User  logged out - logged on: 02/27/20 @ 14:04:08
+User doc1 logged in - logged on: 02/27/20 @ 14:04:20
+User  created an appointment @ hosp1 on 04.26.2021,01:30 AM - logged on: 02/27/20 @ 14:15:26
+User doc1 logged in - logged on: 02/27/20 @ 14:15:38
+User doc1 logged in - logged on: 02/27/20 @ 14:17:56
+User doc1 cancelled Appointment #10 - logged on: 02/27/20 @ 14:18:04
+User doc1 logged in - logged on: 02/27/20 @ 14:34:51
+User doc1 created an appointment @ hosp1 on 05.26.2020,01:30 AM - logged on: 02/27/20 @ 14:35:53
+User  logged out - logged on: 02/27/20 @ 14:38:46
+User doc1 logged in - logged on: 02/27/20 @ 14:38:58
+User doc1 logged in - logged on: 02/27/20 @ 14:45:00
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/27/20 @ 14:45:19
+User doc1 logged in - logged on: 02/27/20 @ 14:46:05
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/27/20 @ 14:47:10
+User doc1 logged out - logged on: 02/27/20 @ 14:47:17
+User pat1 logged in - logged on: 02/27/20 @ 14:47:43
+User pat1 logged out - logged on: 02/27/20 @ 14:48:00
+User pat2 logged in - logged on: 02/27/20 @ 14:48:36
+User pat1 logged in - logged on: 02/27/20 @ 14:50:01
+User pat1 logged out - logged on: 02/27/20 @ 14:51:21
+User doc1 logged in - logged on: 02/27/20 @ 14:51:32
+User doc1 logged in - logged on: 02/27/20 @ 14:58:45
+User doc1 logged in - logged on: 02/27/20 @ 15:04:26
+User doc1 logged in - logged on: 02/27/20 @ 15:05:04
+User doc1 logged in - logged on: 02/27/20 @ 15:08:48
+User doc1 logged out - logged on: 02/27/20 @ 15:10:16
+User doc1 logged in - logged on: 02/27/20 @ 15:10:48
+User doc1 created an appointment @ hosp1 on 01.01.2021,02:00 AM - logged on: 02/27/20 @ 15:11:27
+User doc1 logged in - logged on: 02/27/20 @ 15:24:27
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/27/20 @ 15:40:19
+User doc1 logged out - logged on: 02/27/20 @ 15:41:26
+User pat1 logged in - logged on: 02/27/20 @ 15:41:39
+User pat1 logged out - logged on: 02/27/20 @ 15:42:06
+User doc1 logged in - logged on: 02/27/20 @ 15:42:21
+User doc1 logged in - logged on: 02/27/20 @ 15:43:54
+User doc1 logged in - logged on: 02/27/20 @ 15:49:59
+User doc1 logged in - logged on: 02/27/20 @ 15:53:52
+User doc1 logged out - logged on: 02/27/20 @ 15:57:13
+User doc2 logged in - logged on: 02/27/20 @ 15:57:23
+User doc1 logged in - logged on: 02/27/20 @ 16:12:02
+User  updated Patient pat1's medical information - logged on: 02/27/20 @ 16:12:30
+User doc1 logged in - logged on: 02/27/20 @ 16:12:44
+User doc1 updated Patient pat1's medical information - logged on: 02/27/20 @ 16:12:54
+User doc1 logged out - logged on: 02/27/20 @ 16:13:47
+User pat1 logged in - logged on: 02/27/20 @ 16:19:38
+User pat1 logged in - logged on: 02/27/20 @ 16:42:50
+User  logged out - logged on: 02/27/20 @ 16:44:34
+User pat1 logged in - logged on: 02/27/20 @ 16:44:47
+User  logged out - logged on: 02/27/20 @ 16:46:34
+User pat1 logged in - logged on: 02/27/20 @ 16:46:49
+User  logged out - logged on: 02/27/20 @ 16:48:56
+User pat1 logged in - logged on: 02/27/20 @ 16:49:06
+User  logged out - logged on: 02/27/20 @ 16:52:53
+User pat1 logged in - logged on: 02/27/20 @ 16:53:16
+User  logged out - logged on: 02/27/20 @ 17:01:12
+User pat1 logged in - logged on: 02/27/20 @ 17:01:24
+User  logged out - logged on: 02/27/20 @ 17:03:16
+User pat1 logged in - logged on: 02/27/20 @ 17:03:28
+User pat1 created an appointment @ hosp2 on 04.25.2021,01:00 AM - logged on: 02/27/20 @ 17:03:49
+User pat1 logged in - logged on: 02/27/20 @ 17:05:07
+User pat1 logged in - logged on: 02/27/20 @ 17:07:22
+User pat1 logged in - logged on: 02/27/20 @ 17:07:51
+User pat1 cancelled Appointment #13 - logged on: 02/27/20 @ 17:09:31
+User pat1 created an appointment @ hosp1 on 05.25.2021,01:30 PM - logged on: 02/27/20 @ 17:10:06
+User pat1 logged out - logged on: 02/27/20 @ 17:10:09
+User doc1 logged in - logged on: 02/27/20 @ 17:10:26
+User doc1 logged out - logged on: 02/27/20 @ 17:10:37
+User doc2 logged in - logged on: 02/27/20 @ 17:10:50
+User doc2 cancelled Appointment #14 - logged on: 02/27/20 @ 17:11:00
+User doc2 logged out - logged on: 02/27/20 @ 17:11:03
+User pat1 logged in - logged on: 02/27/20 @ 17:11:26
+User pat1 logged out - logged on: 02/27/20 @ 17:11:56
+User doc1 logged in - logged on: 02/27/20 @ 17:54:40
+User doc1 logged in - logged on: 02/27/20 @ 21:27:52
+User doc1 logged out - logged on: 02/27/20 @ 21:30:28
+User adminA logged in - logged on: 02/27/20 @ 21:37:12
+User adminA logged in - logged on: 02/27/20 @ 21:39:51
+User doc3 registered a new account - logged on: 02/27/20 @ 21:41:12
+User adminA logged in - logged on: 02/27/20 @ 21:42:39
+User doc4 registered a new account - logged on: 02/27/20 @ 21:43:42
+User  logged out - logged on: 02/27/20 @ 21:44:43
+User adminA logged in - logged on: 02/27/20 @ 21:45:47
+User adminA logged out - logged on: 02/27/20 @ 21:46:44
+User adminA logged in - logged on: 02/27/20 @ 21:46:56
+User adminA logged out - logged on: 02/27/20 @ 21:47:24
+User doc1 logged in - logged on: 02/27/20 @ 21:47:37
+User doc1 created an appointment @ hosp2 on 05.25.2020,01:00 AM - logged on: 02/27/20 @ 21:49:47
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/27/20 @ 21:53:03
+User doc1 logged out - logged on: 02/27/20 @ 21:54:45
+User pat1 logged in - logged on: 02/27/20 @ 21:54:59
+User pat1 logged out - logged on: 02/27/20 @ 21:56:49
+User doc1 logged in - logged on: 02/27/20 @ 21:57:00
+User doc1 logged out - logged on: 02/27/20 @ 22:17:29
+User adminA logged in - logged on: 02/27/20 @ 22:41:42
+User adminA logged in - logged on: 02/27/20 @ 23:10:30
+User  logged out - logged on: 02/27/20 @ 23:30:04
+User adminA logged in - logged on: 02/27/20 @ 23:30:12
+User adminA logged in - logged on: 02/28/20 @ 00:00:57
+User adminA logged in - logged on: 02/28/20 @ 00:03:22
+User adminA logged in - logged on: 02/28/20 @ 00:08:46
+User adminA logged in - logged on: 02/28/20 @ 00:11:24
+User adminA logged in - logged on: 02/28/20 @ 00:17:45
+User adminA logged in - logged on: 02/28/20 @ 00:24:57
+User doc1 registered a new account - logged on: 02/28/20 @ 00:26:44
+User  logged out - logged on: 02/28/20 @ 00:29:31
+User doc1 logged in - logged on: 02/28/20 @ 00:29:42
+User doc1 logged out - logged on: 02/28/20 @ 00:34:51
+User pat1 registered a new account - logged on: 02/28/20 @ 00:37:26
+User pat1 logged out - logged on: 02/28/20 @ 00:37:35
+User pat1 logged in - logged on: 02/28/20 @ 00:37:47
+User doc1 logged in - logged on: 02/28/20 @ 00:40:58
+User doc1 logged out - logged on: 02/28/20 @ 00:41:01
+User pat1 logged in - logged on: 02/28/20 @ 00:41:18
+User pat1 logged in - logged on: 02/28/20 @ 00:44:27
+User pat1 logged in - logged on: 02/28/20 @ 01:02:04
+User  logged out - logged on: 02/28/20 @ 01:33:51
+User pat1 logged in - logged on: 02/28/20 @ 01:34:00
+User  logged out - logged on: 02/28/20 @ 01:47:11
+User pat1 logged in - logged on: 02/28/20 @ 01:47:24
+User  logged out - logged on: 02/28/20 @ 01:55:11
+User adminA logged in - logged on: 02/28/20 @ 01:55:20
+User doc1 registered a new account - logged on: 02/28/20 @ 01:56:20
+User adminA logged out - logged on: 02/28/20 @ 01:56:34
+User pat1 registered a new account - logged on: 02/28/20 @ 01:57:22
+User pat1 logged out - logged on: 02/28/20 @ 01:57:26
+User pat1 logged in - logged on: 02/28/20 @ 01:57:38
+User pat1 logged in - logged on: 02/28/20 @ 01:59:24
+User pat1 logged in - logged on: 02/28/20 @ 02:00:04
+User  logged out - logged on: 02/28/20 @ 02:04:06
+User pat1 logged in - logged on: 02/28/20 @ 02:04:18
+User pat1 logged in - logged on: 02/28/20 @ 02:05:45
+User  logged out - logged on: 02/28/20 @ 02:06:50
+User pat1 logged in - logged on: 02/28/20 @ 02:07:02
+User  logged out - logged on: 02/28/20 @ 02:08:21
+User pat1 logged in - logged on: 02/28/20 @ 02:08:30
+User  logged out - logged on: 02/28/20 @ 02:16:53
+User pat1 logged in - logged on: 02/28/20 @ 02:17:02
+User pat1 logged in - logged on: 02/28/20 @ 02:24:44
+User pat1 logged in - logged on: 02/28/20 @ 02:29:35
+User pat1 logged in - logged on: 02/28/20 @ 02:34:48
+User  cancelled Appointment #1 - logged on: 02/28/20 @ 02:37:38
+User pat1 logged in - logged on: 02/28/20 @ 02:37:50
+User pat1 logged out - logged on: 02/28/20 @ 02:40:05
+User doc1 logged in - logged on: 02/28/20 @ 02:40:23
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/28/20 @ 02:44:41
+User  logged out - logged on: 02/28/20 @ 03:06:09
+User pat1 logged in - logged on: 02/28/20 @ 03:06:19
+User pat1 logged out - logged on: 02/28/20 @ 03:08:07
+User doc1 logged in - logged on: 02/28/20 @ 03:08:19
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/28/20 @ 03:10:00
+User doc1 logged in - logged on: 02/28/20 @ 03:14:46
+User  logged out - logged on: 02/28/20 @ 03:20:47
+User adminA logged in - logged on: 02/28/20 @ 03:21:01
+User adminA logged out - logged on: 02/28/20 @ 03:21:02
+User adminA logged in - logged on: 02/28/20 @ 03:22:24
+User adminA logged in - logged on: 02/28/20 @ 03:27:18
+User adminA logged out - logged on: 02/28/20 @ 03:27:58
+User adminA logged in - logged on: 02/28/20 @ 03:28:44
+User  logged out - logged on: 02/28/20 @ 03:35:27
+User doc1 logged in - logged on: 02/28/20 @ 03:35:39
+User  logged out - logged on: 02/28/20 @ 03:49:57
+User doc1 logged in - logged on: 02/28/20 @ 03:50:12
+User adminA logged in - logged on: 02/28/20 @ 03:54:51
+User doc1 registered a new account - logged on: 02/28/20 @ 03:56:39
+User adminA logged out - logged on: 02/28/20 @ 03:56:52
+User pat1 registered a new account - logged on: 02/28/20 @ 03:57:59
+User pat1 logged out - logged on: 02/28/20 @ 03:58:03
+User pat1 logged in - logged on: 02/28/20 @ 03:58:26
+User pat1 logged out - logged on: 02/28/20 @ 03:59:17
+User doc1 logged in - logged on: 02/28/20 @ 03:59:26
+User doc1 logged in - logged on: 02/28/20 @ 04:02:51
+User  logged out - logged on: 02/28/20 @ 04:06:10
+User doc1 logged in - logged on: 02/28/20 @ 04:06:18
+User doc1 logged in - logged on: 02/28/20 @ 04:11:40
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/28/20 @ 04:11:51
+User doc1 logged out - logged on: 02/28/20 @ 04:12:11
+User doc1 logged in - logged on: 02/28/20 @ 04:12:19
+User  logged out - logged on: 02/28/20 @ 04:20:15
+User doc1 logged in - logged on: 02/28/20 @ 04:20:25
+User doc1 logged in - logged on: 02/28/20 @ 04:21:41
+User doc1 logged in - logged on: 02/28/20 @ 04:22:18
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/28/20 @ 04:24:03
+User doc1 logged in - logged on: 02/28/20 @ 04:26:57
+User doc1 logged in - logged on: 02/28/20 @ 04:27:59
+User doc1 logged in - logged on: 02/28/20 @ 04:29:46
+User doc1 logged out - logged on: 02/28/20 @ 04:30:38
+User doc1 logged in - logged on: 02/28/20 @ 04:30:47
+User doc1 logged out - logged on: 02/28/20 @ 04:31:39
+User doc1 logged in - logged on: 02/28/20 @ 04:31:48
+User doc1 logged in - logged on: 02/28/20 @ 04:34:07
+User doc1 logged in - logged on: 02/28/20 @ 04:35:21
+User doc1 logged in - logged on: 02/28/20 @ 04:42:50
+User doc1 logged in - logged on: 02/28/20 @ 04:43:26
+User doc1 logged in - logged on: 02/28/20 @ 04:48:57
+User doc1 logged in - logged on: 02/28/20 @ 04:49:47
+User doc1 logged in - logged on: 02/28/20 @ 04:51:11
+User doc1 logged in - logged on: 02/28/20 @ 04:52:23
+User doc1 logged in - logged on: 02/28/20 @ 04:53:14
+User doc1 logged in - logged on: 02/28/20 @ 04:54:10
+User doc1 logged in - logged on: 02/28/20 @ 04:57:20
+User  logged out - logged on: 02/28/20 @ 04:58:19
+User doc1 logged in - logged on: 02/28/20 @ 04:58:31
+User  logged out - logged on: 02/28/20 @ 05:26:25
+User adminA logged in - logged on: 02/28/20 @ 05:27:32
+User doc1 logged in - logged on: 02/28/20 @ 05:28:09
+User  logged out - logged on: 02/28/20 @ 05:29:28
+User doc1 logged in - logged on: 02/28/20 @ 05:29:38
+User doc1 logged out - logged on: 02/28/20 @ 05:29:46
+User doc1 logged in - logged on: 02/28/20 @ 05:30:32
+User  logged out - logged on: 02/28/20 @ 05:31:20
+User doc1 logged in - logged on: 02/28/20 @ 05:31:28
+User  logged out - logged on: 02/28/20 @ 05:32:07
+User doc1 logged in - logged on: 02/28/20 @ 05:32:16
+User doc1 logged out - logged on: 02/28/20 @ 05:32:22
+User doc1 logged in - logged on: 02/28/20 @ 05:35:45
+User doc1 logged out - logged on: 02/28/20 @ 05:35:52
+User doc1 logged in - logged on: 02/28/20 @ 05:37:49
+User doc1 logged in - logged on: 02/28/20 @ 05:46:54
+User doc1 logged in - logged on: 02/28/20 @ 05:48:32
+User doc1 logged out - logged on: 02/28/20 @ 05:48:55
+User pat2 registered a new account - logged on: 02/28/20 @ 05:49:56
+User pat2 logged out - logged on: 02/28/20 @ 05:50:06
+User doc1 logged in - logged on: 02/28/20 @ 05:50:40
+User doc1 logged out - logged on: 02/28/20 @ 05:50:58
+User pat1 logged in - logged on: 02/28/20 @ 05:52:24
+User pat1 logged out - logged on: 02/28/20 @ 05:52:25
+User doc1 logged in - logged on: 02/28/20 @ 05:52:39
+User doc1 logged in - logged on: 02/28/20 @ 05:57:15
+User doc1 logged in - logged on: 02/28/20 @ 06:00:36
+User doc1 logged in - logged on: 02/28/20 @ 06:01:53
+User  logged out - logged on: 02/28/20 @ 06:04:19
+User doc1 logged in - logged on: 02/28/20 @ 06:04:28
+User  logged out - logged on: 02/28/20 @ 06:05:32
+User doc1 logged in - logged on: 02/28/20 @ 06:05:39
+User  logged out - logged on: 02/28/20 @ 06:07:56
+User doc1 logged in - logged on: 02/28/20 @ 06:08:05
+User doc1 logged in - logged on: 02/28/20 @ 06:09:30
+User  logged out - logged on: 02/28/20 @ 06:14:58
+User doc1 logged in - logged on: 02/28/20 @ 06:15:18
+User pat1 logged in - logged on: 02/28/20 @ 06:25:22
+User pat1 logged out - logged on: 02/28/20 @ 06:25:23
+User doc1 logged in - logged on: 02/28/20 @ 06:25:45
+User  logged out - logged on: 02/28/20 @ 06:31:20
+User doc1 logged in - logged on: 02/28/20 @ 06:31:30
+User doc1 logged in - logged on: 02/28/20 @ 06:35:30
+User doc1 logged in - logged on: 02/28/20 @ 06:37:27
+User doc1 logged in - logged on: 02/28/20 @ 06:39:13
+User doc1 logged in - logged on: 02/28/20 @ 06:44:08
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/28/20 @ 06:48:22
+User doc1 logged in - logged on: 02/28/20 @ 07:04:49
+User  logged out - logged on: 02/28/20 @ 07:14:19
+User doc1 logged in - logged on: 02/28/20 @ 07:14:39
+User  logged out - logged on: 02/28/20 @ 07:18:10
+User doc1 logged in - logged on: 02/28/20 @ 07:18:22
+User  logged out - logged on: 02/28/20 @ 07:32:29
+User doc1 logged in - logged on: 02/28/20 @ 07:32:46
+User  logged out - logged on: 02/28/20 @ 07:35:49
+User doc1 logged in - logged on: 02/28/20 @ 07:36:02
+User  logged out - logged on: 02/28/20 @ 07:37:38
+User doc1 logged in - logged on: 02/28/20 @ 07:37:47
+User  logged out - logged on: 02/28/20 @ 07:38:24
+User doc1 logged in - logged on: 02/28/20 @ 07:38:34
+User  logged out - logged on: 02/28/20 @ 07:41:45
+User doc1 logged in - logged on: 02/28/20 @ 07:41:53
+User doc1 logged out - logged on: 02/28/20 @ 07:43:45
+User doc1 logged in - logged on: 02/28/20 @ 07:43:57
+User doc1 logged out - logged on: 02/28/20 @ 07:50:25
+User adminA logged in - logged on: 02/28/20 @ 07:50:48
+User doc2 registered a new account - logged on: 02/28/20 @ 07:52:04
+User doc1 logged in - logged on: 02/28/20 @ 07:59:22
+User doc1 logged out - logged on: 02/28/20 @ 07:59:32
+User pat1 logged in - logged on: 02/28/20 @ 07:59:41
+User  logged out - logged on: 02/28/20 @ 08:06:28
+User pat1 logged in - logged on: 02/28/20 @ 08:06:48
+User doc1 logged in - logged on: 02/28/20 @ 08:43:47
+Doctor doc1 created a prescription for Patient pat1 - logged on: 02/28/20 @ 08:45:02
+User doc1 logged in - logged on: 02/28/20 @ 08:46:03
+User doc1 updated Patient pat1's medical information - logged on: 02/28/20 @ 08:51:04
+Patient pat1's test results were released by Doctor doc1 - logged on: 02/28/20 @ 08:56:21
+User doc1 logged in - logged on: 02/28/20 @ 08:56:38
+User doc1 logged out - logged on: 02/28/20 @ 08:59:50
+User doc1 logged in - logged on: 02/28/20 @ 09:03:14
+User doc1 logged out - logged on: 02/28/20 @ 09:14:55
+User adminA logged in - logged on: 02/28/20 @ 09:15:09
+User adminA logged in - logged on: 02/28/20 @ 09:19:08
+User doc1 logged in - logged on: 02/28/20 @ 09:22:27
+User doc1 logged out - logged on: 02/28/20 @ 09:23:46
+User adminA logged in - logged on: 02/28/20 @ 09:25:07

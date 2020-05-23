@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/mainPages.css' %}"/>
+<!--<link rel='shortcut icon' href={% static 'HAccelerator/images/favicon.ico' %} type='images/favicon' />-->
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/font-awesome.min.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/style.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/bootstrap.min.css' %}">
+<script src="{% static 'HAccelerator/js/jquery.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/cities.js '%}"></script>
+<script src="{% static 'HAccelerator/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/form.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/form.css' %}">
+
+<head>
+    <title>HealthNet | Prescriptions</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        #particles-js {
+            height: 100%;
+            background: black;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 26px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 26px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            font-size: 20px;
+        }
+
+        /*button:hover {*/
+        /*    opacity: 0.8;*/
+        /*}*/
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 4% auto 15% auto;
+            border: 1px solid #888;
+            width: 40%;
+            padding-bottom: 30px;
+        }
+
+        .close {
+            position: absolute;
+            right: 25px;
+            top: 0;
+            color: #000;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        /*.close:hover,*/
+        /*.close:focus {*/
+        /*    color: red;*/
+        /*    cursor: pointer;*/
+        /*}*/
+
+        .animate {
+            animation: zoom 1.5s
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+            to {
+                transform: scale(1)
+            }
+        }
+
+        .parallax {
+            min-height: 650px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #00b3b3;
+        }
+
+        #i2 {
+            width: 500px;
+        }
+
+
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 75%;
+            border: none;
+            /*text-align: center;*/
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        /*.active, .accordion:hover {*/
+        /*    background-color: #ccc;*/
+        /*}*/
+
+        table, td, th {
+            text-align: center;
+        }
+
+        .accordion:after {
+            content: '\002B';
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            /*padding: 0 18px;*/
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+    </style>
+</head>
+
+<ul class="nav">
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:home' %}">Home</a></li>
+    {% if type == "Administrator"%}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:log' %}">Activity Log</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:statistics' %}">Statistics</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:registerDN' %}">D/N Registration</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:registerML' %}">M/L Registration</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:Alldocs' %}">All Doctors</a></li>
+    {% elif type == "Doctor" or type == "Nurse" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_item_active" href="{% url 'HealthNet:prescriptions' %}">Prescriptions</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    {% elif type == "Patient" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_item_active" href="{% url 'HealthNet:prescriptions' %}">Prescriptions</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% elif type == "MedicStore" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% else %}
+    <li class="nav_container"><a class="btn btn-primary" href="{% url 'HealthNet:information' %}">User Information</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% endif %}
+    <li style="float:right" class="nav_container"><a class="nav_items" href="{% url 'HealthNet:logOut' %}">Log Out</a>
+    </li>
+</ul>
+
+
+<body>
+<div id="container">
+    <div id="tablecontainer">
+        {% if type == "Patient" %}
+        <h2><span style="text-decoration: underline;">{{ patient.firstName }} {{ patient.lastName }}</span>, these are
+            the prescriptions that have been assigned to you</h2>
+        {% elif type == "Doctor" %}
+        <h2><span style="text-decoration: underline;">{{ employee.firstName }} {{ employee.lastName }}</span>, these are
+            the prescriptions that you have created</h2>
+        {% else %}
+        <h2><span style="text-decoration: underline;">{{ employee.firstName }} {{ employee.lastName }}</span>, these are
+            the prescriptions for patients at <span
+                    style="text-decoration: underline;">{{ employee.workplace.name }}</span></h2>
+        {% endif %}
+        {% if prescriptions %}
+        <table>
+            <tr>
+                <th>Pr ID</th>
+                <th>Date</th>
+                {% if type == "Patient"%}
+
+                {% else %}
+                <th>Patient</th>
+                {% endif %}
+
+                {% if type == "Doctor"%}
+                <th>Doctor</th>
+                {% else %}
+                <th>Doctor</th>
+                {% endif %}
+                <th>View</th>
+                <th>Remove</th>
+            </tr>
+            {% for p in prescriptions %}
+            <tr>
+                {% if type == "Doctor"%}
+                <td>{{ p.prid }}</td>
+                {% else %}
+                <td>{{ p.prid }}</td>
+                {% endif %}
+
+                <td>{{ p.day }}/{{ p.month }}/{{ p.year }}</td>
+
+                {% if type == "Patient"%}
+
+                {% else %}
+                <td>{{ p.patient }}</td>
+                {% endif %}
+
+                {% if type == "Doctor"%}
+                <td>{{ p.doctor }}</td>
+                {% endif %}
+                <script>
+                    function abc() {
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+
+                        for (i = 0; i < acc.length; i++) {
+                            acc[i].addEventListener("click", function () {
+                                this.classList.toggle("active");
+                                var panel = this.nextElementSibling;
+                                if (panel.style.maxHeight) {
+                                    panel.style.maxHeight = null;
+                                } else {
+                                    panel.style.maxHeight = panel.scrollHeight + "px";
+                                }
+                            });
+                        }
+                    }
+                </script>
+                <td>
+                    <button class="accordion" onclick="abc()">Section</button>
+                    <div class="panel">
+                        <table>
+                            <tr>
+                                <th>Prescription No.</th>
+                                <th>Medicine Name</th>
+                                <th>Dosage</th>
+                            </tr>
+                            {% for i in press %}
+                            {% if i.prid.prid == p.prid %}
+                            <tr>
+                                <td>{{ i.prid.prid }}</td>
+                                <td>{{ i.name }}</td>
+                                <td>{{ i.dosage }}</td>
+                            </tr>
+                            {% endif %}
+                            {% endfor %}
+                        </table>
+                    </div>
+                </td>
+
+                {% if type == "Doctor"%}
+                <td>
+                    <form action="{% url 'HealthNet:removePres' p.id %}"><input type="submit" value="Remove"/></form>
+                </td>
+                {% else %}
+                <td>{{ p.doctor }}</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p>There are no prescriptions to view</p>
+        {% endif %}
+
+        {% if type == "Doctor" %}
+        <h2>These are the prescriptions for patients at <span style="text-decoration: underline;">{{ employee.workplace.name }}</span>
+        </h2>
+        {% if presatw %}
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Dosage</th>
+                <th>Patient</th>
+                <th>Disease</th>
+                <th>Date</th>
+                <th></th>
+            </tr>
+            {% for p in presatw %}
+            <tr>
+                <td><a href="{% url 'HealthNet:updatePres' p.id %}">{{ p.name }}</a></td>
+                <td>{{ p.dosage }}</td>
+                <td>{{ p.patient }}</td>
+                <td>{{ p.disease }}</td>
+                <td>{{ p.day }}/{{ p.month }}/{{ p.year }}</td>
+                <td>
+                    <form action="{% url 'HealthNet:removePres' p.id %}"><input type="submit" value="Remove"/></form>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p>There are no prescriptions to view</p>
+        {% endif %}
+
+        <br>
+        {% endif %}
+    </div>
+</div>
+</body>
+</html>

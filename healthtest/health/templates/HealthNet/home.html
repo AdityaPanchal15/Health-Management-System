@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/mainPages.css' %}"/>
+<!--<link rel='shortcut icon' href={% static 'HAccelerator/images/favicon.ico' %} type='images/favicon' />-->
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/font-awesome.min.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/style.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/bootstrap.min.css' %}">
+<script src="{% static 'HAccelerator/js/jquery.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/cities.js '%}"></script>
+<script src="{% static 'HAccelerator/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/form.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/form.css' %}">
+
+
+<head>
+    <title>HealthNet | Home</title>
+</head>
+
+<ul class="nav">
+    <li class="nav_container"><a class="nav_item_active" href="{% url 'HealthNet:home' %}">Home</a></li>
+    {% if type == "Administrator"%}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:log' %}">Activity Log</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:statistics' %}">Statistics</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:registerDN' %}">D/N Registration</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:registerML' %}">M/L Registration</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:Alldocs' %}">All Doctors</a></li>
+    {% elif type == "Doctor" or type == "Nurse" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:prescriptions' %}">Prescriptions</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    {% elif type == "Patient" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:prescriptions' %}">Prescriptions</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% elif type == "MedicStore" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% else %}
+    <li class="nav_container"><a class="btn btn-primary" href="{% url 'HealthNet:information' %}">User Information</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% endif %}
+    <li style="float:right" class="nav_container"><a class="nav_items" href="{% url 'HealthNet:logOut' %}">Log Out</a>
+    </li>
+</ul>
+
+<body>
+<div id="container">
+    {% if error_message %}
+    <div id="alert">
+        <strong>{{ error_message }}</strong>
+    </div>
+    {% endif %}
+    <div id="homecontainer1">
+        <h2> Welcome {{ type }}:</h2>
+        <h3>{{ user.firstName }} {{ user.lastName }}</h3>
+        <hr/>
+        <h2>Today is:</h2>
+        <h3 id='date'></h3>
+    </div>
+</div>
+<script>
+    var today = new Date;
+    document.getElementById('date').innerHTML = "" + today;
+</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer id="footer" style="background-color:#333333;">
+    <div class="top-footer1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 marb20">
+                    <div class="ftr-tle">
+                        <h4 class="white no-padding">About Us</h4>
+                    </div>
+                    <div class="info-sec">
+                        <p>Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis
+                            parturient.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 marb20">
+                    <div class="ftr-tle">
+                        <h4 class="white no-padding">Quick Links</h4>
+                    </div>
+                    <div class="info-sec">
+                        <ul class="quick-info">
+                            <li><a href="index.html"><i class="fa fa-circle"></i>Home</a>
+                            <li><a href="#service"><i class="fa fa-circle"></i>Service</a>
+                            <li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 marb20">
+                    <div class="ftr-tle">
+                        <h4 class="white no-padding">Follow us</h4>
+                    </div>
+                    <div class="info-sec">
+                        <ul class="social-icon">
+                            <li class="bglight-blue"><i class="fa fa-facebook"></i>
+                            <li class="bgred"><i class="fa fa-google-plus"></i>
+                            <li class="bgdark-blue"><i class="fa fa-linkedin"></i>
+                            <li class="bglight-blue"><i class="fa fa-twitter"></i>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    © Copyright Theme. All Rights Reserved
+                    <div class="credits">
+                        <!--
+                          All the links in the footer should remain intact.
+                          You can delete the links only if you purchased the pro version.
+                          Licensing information: https://bootstrapmade.com/license/
+                          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medilab
+                        -->
+                        <!--              Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

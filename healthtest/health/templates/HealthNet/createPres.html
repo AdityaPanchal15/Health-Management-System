@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/formPages.css' %}"/>
+<link rel='shortcut icon' href={% static
+'HAccelerator/images/favicon.ico' %} type='images/favicon' />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+
+<head>
+    <title>HealthNet | Create Prescription</title>
+    <script type="text/javascript">
+        function checkform() {
+            if (document.createPres.name.value.length == 0) {
+                alert("Please enter a Prescription name");
+                return false;
+            } else if (document.createPres.dosage.value.length == 0) {
+                alert("Please enter a Dosage");
+                return false;
+            } else if (document.createPres.patient.value == "Please Select a Patient") {
+                alert("Please select a valid patient");
+                return false;
+            } else {
+                alert("Your prescription will now be created");
+                return true;
+            }
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            var availableTags = [
+                "Fever",
+                "Cold",
+                "Diarrhea",
+
+            ];
+            $("#tags").autocomplete({
+                source: availableTags
+            });
+        });
+    </script>
+    <script type='text/javascript'>
+        function addFields() {
+            // Number of inputs to create
+            var number = document.getElementById("member").value;
+            // Container <div> where dynamic content will be placed
+            var container = document.getElementById("acontainer");
+            // Clear previous contents of the container
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+            for (i = 0; i < number; i++) {
+                // Append a node with a random text
+                container.appendChild(document.createTextNode("Medicens " + (i + 1)));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "text";
+                input.name = "MedicensName" + i;
+                container.appendChild(input);
+
+                container.appendChild(document.createTextNode("Dosege " + (i + 1)));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "text";
+                input.name = "Dosege" + i;
+                container.appendChild(input);
+                // Append a line break
+                container.appendChild(document.createElement("br"));
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<div id="container">
+    <div id="formContainer">
+        <h1>Create Your Prescription Below</h1>
+        <form name='createPres' action="{% url 'HealthNet:createPresInfo' appoinments.id%}" method="post"
+              onsubmit="return checkform();">
+            {% csrf_token %}
+
+            <ul>
+                <li class="form">To create your prescription, complete the form below</li>
+            </ul>
+
+            <div class="formcontent">
+                Input a Disease:
+                <input id="tags" type="text" name="disease" style="display: block" placeholder="Disease"/>
+                Input a Critical Level:
+                <input type="text" name="critic_level" style="display: block" placeholder="Critical Level"/>
+                Input a Admit:
+                <input type="radio" id="male" name="admit" value="0">
+                <label for="male">NO</label><br>
+                <input type="radio" id="female" name="admit" value="1">
+                <label for="female">YES</label><br>
+                Select a Patient:
+                {{ patients.lastName }}, {{ patients.firstName }}
+                <select style="display: block" name='patient'>
+                    <option name="patient" value="{{ patients.pid }}">{{patients.lastName}}, {{ patients.firstName }}
+                    </option>
+                </select>
+                <!--                    <div id="sCont" class="content">-->
+                <!--                        <input type="text" id="member" name="member" value="">Number of members: (max. 10)<br />-->
+                <!--                        <a href="#" id="filldetails" onclick="addFields()">Fill Details</a>-->
+                <!--                        <div id="acontainer"/>-->
+                <!--                    </div>-->
+                <!--                    <div id="pCont" class="content">-->
+                <!--                        <input type="text" id="member1" name="member" value="">Number of members: (max. 10)<br />-->
+                <!--                        <a href="#" id="filldetails1" onclick="addField()">Fill Details</a>-->
+                <!--                        <div id="pcontainer"/>-->
+                <!--                    </div>-->
+
+                <div>
+                    <input type="text" id="member" name="member" value="">Number of Medicens: (max. 10)<br/>
+                    <a href="#" id="filldetails" onclick="addFields()">Fill Details</a>
+                    <div id="acontainer"/>
+                </div>
+            </div>
+            <input type="submit" value="Submit"/>
+        </form>
+        <form action="{% url 'HealthNet:appointments' %}">
+            <input class="button" type="submit" value="Cancel"/>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/mainPages.css' %}"/>
+<!--<link rel='shortcut icon' href={% static 'HAccelerator/images/favicon.ico' %} type='images/favicon' />-->
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/font-awesome.min.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/style.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/bootstrap.min.css' %}">
+<script src="{% static 'HAccelerator/js/jquery.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/cities.js '%}"></script>
+<script src="{% static 'HAccelerator/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/form.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/form.css' %}">
+
+<head>
+    <title>HealthNet | Patient Information</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        #particles-js {
+            height: 100%;
+            background: black;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 26px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 26px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            font-size: 20px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 4% auto 15% auto;
+            border: 1px solid #888;
+            width: 40%;
+            padding-bottom: 30px;
+        }
+
+        .close {
+            position: absolute;
+            right: 25px;
+            top: 0;
+            color: #000;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: red;
+            cursor: pointer;
+        }
+
+        .animate {
+            animation: zoom 1.5s
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+            to {
+                transform: scale(1)
+            }
+        }
+
+        .parallax {
+            min-height: 650px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #00b3b3;
+        }
+
+        #i2 {
+            width: 500px;
+        }
+
+
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .accordion:after {
+            content: '\002B';
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        function checkform() {
+            if (document.login.username.value.length == 0) {
+                alert("Please fill in your username");
+                return false;
+            } else if (document.login.password.value.length == 0) {
+                alert("Please enter your password");
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+
+
+<ul class="nav">
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:home' %}">Home</a></li>
+    {% if type == "Administrator"%}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:log' %}">Activity Log</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:statistics' %}">Statistics</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:registerDN' %}">D/N Registration</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:registerML' %}">M/L Registration</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:Alldocs' %}">All Doctors</a></li>
+    {% elif type == "Doctor" or type == "Nurse" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_item_active" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:prescriptions' %}">Prescriptions</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    {% elif type == "Patient" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:prescriptions' %}">Prescriptions</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% elif type == "MedicStore" %}
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:information' %}">User Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_item_active" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% else %}
+    <li class="nav_container"><a class="btn btn-primary" href="{% url 'HealthNet:information' %}">User Information</a>
+    </li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:appointments' %}">Manage Appointments</a>
+    </li>
+    <li class="nav_container"><a class="nav_item_active" href="{% url 'HealthNet:pinformation' %}">PID Information</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:calendar' %}">Calendar</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:messages' %}">Messages</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:medicals' %}">Medical Stores</a></li>
+    <li class="nav_container"><a class="nav_items" href="{% url 'HealthNet:all_labs' %}">Labs</a></li>
+    {% endif %}
+    <li style="float:right" class="nav_container"><a class="nav_items" href="{% url 'HealthNet:logOut' %}">Log Out</a>
+    </li>
+</ul>
+
+<body>
+<br>
+<br><br>
+<div id="container">
+    <div id="tablecontainer">
+        {% if t == "flag" %}
+        <form action="{% url 'HealthNet:pinformation' %}" method="get">
+            Enter a Patient ID:
+            <input type="text" name="pid" style="display: block" placeholder="Patient ID"/>
+            <input class="button" type="submit" value="submit"/>
+        </form>
+        {% else %}
+        {% if type == "Doctor" %}
+        <h2>Profile Information</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Insurance Provider</th>
+                <th>Insurance ID</th>
+            </tr>
+            <tr>
+                <td>{{ patient.lastName }}, {{ patient.firstName }}</td>
+                <td>{{ patient.paddress }}</td>
+                <td>{{ patient.number }}</td>
+                <td>{{ patient.email }}</td>
+                <td>{{ patient.provider }}</td>
+                <td>{{ patient.insuranceid }}</td>
+            </tr>
+        </table>
+        <h2>Emergency Contact</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>{{ patient.contact.lastName }}, {{ patient.contact.firstName }}</td>
+                <td>{{ patient.contact.address }}</td>
+                <td>{{ patient.contact.number }}</td>
+            </tr>
+        </table>
+
+        <br>
+        <h2>Medical Information</h2>
+        <table>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Allergies</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>{{ patient.height }}</td>
+                <td>{{ patient.weight }} lbs</td>
+                <td>{{ patient.allergies }}</td>
+                <td>{{ patient.gender }}</td>
+            </tr>
+        </table>
+
+        <br>
+        <h2>Prescriptions</h2>
+        {% if prescriptions %}
+        <table>
+            <tr>
+                <th>Pr ID</th>
+                <th>Date</th>
+                {% if type == "Patient"%}
+
+                {% else %}
+                <th>Patient</th>
+                {% endif %}
+
+                {% if type == "Doctor"%}
+                <th>Doctor</th>
+                {% else %}
+                <th>Doctor</th>
+                {% endif %}
+                <th>View</th>
+            </tr>
+            {% for pre in prescriptions %}
+            <tr>
+                {% if type == "Doctor"%}
+                <td>{{ pre.prid }}</td>
+                {% else %}
+                <td>{{ pre.prid }}</td>
+                {% endif %}
+
+                <td>{{ pre.day }}/{{ pre.month }}/{{ pre.year }}</td>
+                {% if type == "Patient"%}
+
+                {% else %}
+                <td>{{ pre.doctor }}</td>
+                {% endif %}
+
+                {% if type == "Doctor"%}
+                <td>{{ pre.doctor }}</td>
+                {% endif %}
+                <td>
+                    <button class="accordion">Section</button>
+                    <div class="panel">
+                        <table>
+                            <tr>
+                                <th>Prescription No.</th>
+                                <th>Medicine Name</th>
+                                <th>Dosage</th>
+                            </tr>
+                            {% for i in press %}
+                            {% if i.prid.prid == pre.prid %}
+                            <tr>
+                                <td>{{ i.prid.prid }}</td>
+                                <td>{{ i.name }}</td>
+                                <td>{{ i.dosage }}</td>
+                            </tr>
+                            {% endif %}
+                            {% endfor %}
+                        </table>
+                    </div>
+                </td>
+
+            </tr>
+            {% endfor %}
+        </table>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        {% else %}
+        <p>There are no prescriptions to view</p>
+        {% endif %}
+        <br>
+        <h2>Test Results</h2>
+        {% if tests %}
+        <table>
+            <tr>
+                <th>Test Name</th>
+                <th>Release Status</th>
+                <th>Description</th>
+            </tr>
+            {% for t in tests %}
+            <tr>
+                {% if t.released == True %}
+                <td><a class="alink" href="{% url 'HealthNet:testDetails' t.id %}">{{ t.name }}</a></td>
+                {% else %}
+                <td>{{ t.name }}</td>
+                {% endif %}
+                {% if t.released == True %}
+                <td>Test is Released</td>
+                {% else %}
+                <td>Not yet Released</td>
+                {% endif %}
+                <td>{{ t.description }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p>There are no tests to view</p>
+        {% endif %}
+        <br>
+        {% elif type == "MedicStore" %}
+        {% if prescriptions %}
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Dosage</th>
+                {% if type == "Patient"%}
+
+                {% else %}
+                <th>Patient</th>
+                {% endif %}
+
+                {% if type == "Doctor"%}
+                <th></th>
+                {% else %}
+                <th>Doctor</th>
+                {% endif %}
+            </tr>
+
+            <tr>
+                {% if type == "Doctor"%}
+                <td><a href="{% url 'HealthNet:updatePres' p.id %}">{{ prescriptions.name }}</a></td>
+                {% else %}
+                <td>{{ prescriptions.name }}</td>
+                {% endif %}
+
+                <td>{{ prescriptions.dosage }}</td>
+
+                {% if type == "Patient"%}
+
+                {% else %}
+                <td>{{ prescriptions.patient }}</td>
+                {% endif %}
+
+                {% if type == "Doctor"%}
+                <td>
+                    <form action="{% url 'HealthNet:removePres' p.id %}"><input type="submit" value="Remove"/></form>
+                </td>
+                {% else %}
+                <td>{{ prescriptions.doctor }}</td>
+                {% endif %}
+            </tr>
+
+        </table>
+        {% else %}
+        <p>There are no prescriptions to view</p>
+        {% endif %}
+
+        {% elif type == "Lab" %}
+        <h2>Test Results</h2>\
+        {% if tests %}
+        <table>
+            <tr>
+                <th>Test Name</th>
+                <th>Release Status</th>
+            </tr>
+            {% for t in tests %}
+            <tr>
+                {% if t.released == True %}
+                <td><a class="alink" href="{% url 'HealthNet:testDetails' t.id %}">{{ t.name }}</a></td>
+                {% else %}
+                <td>{{ t.name }}</td>
+                {% endif %}
+                {% if t.released == True %}
+                <td>Test is Released</td>
+                {% else %}
+                <td>Not yet Released</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p>There are no tests to view</p>
+        {% endif %}
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+
+
+<script>
+    var modal = document.getElementById('modal-wrapper');
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>

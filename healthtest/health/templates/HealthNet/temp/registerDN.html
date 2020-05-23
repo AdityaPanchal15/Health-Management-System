@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/formPages.css' %}" />
+<link rel='shortcut icon' href="{% static 'HAccelerator/images/favicon.ico' %}" type='images/favicon' />
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/formPages.css' %}" />
+<link rel='shortcut icon' href="{% static 'HAccelerator/images/favicon.ico' %}" type='images/favicon' />
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/bootstrap.min.css' %}">
+<script src="{% static 'HAccelerator/js/jquery.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/cities.js '%}"></script>
+<script src="{% static 'HAccelerator/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/form.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/form.css' %}">
+
+<head>
+	<title>HealthNet | Staff Registration</title>
+	<script type="text/javascript">
+		function checkform()
+		{
+            // if(document.registerDN.firstName.value.length==0)
+			// {
+			// 	alert("You must enter a first name");
+			// 	return false;
+			// }
+            // else if(!validateText(document.registerDN.firstName.value))
+            // {
+            //     alert("Please enter a valid first name (No numbers)");
+            //     return false;
+            // }
+            // else if(document.registerDN.lastName.value.length==0)
+			// {
+			// 	alert("You must enter a last name");
+			// 	return false;
+			// }
+            // else if(!validateText(document.registerDN.lastName.value))
+            // {
+            //     alert("Please enter a valid last name (No numbers)");
+            //     return false;
+            // }
+            // else if(document.registerDN.type.value == "Please Select a User Type")
+            // {
+            //     alert("Please select a valid user type");
+            //     return false;
+            // }
+			// else if(document.registerDN.username.value.length==0)
+			// {
+			// 	alert("You must input a username");
+			// 	return false;
+			// }
+			// else if(document.registerDN.username.length > 30)
+            // {
+            //     alert("The username you entered is too large, please shorten it to 30 characters or smaller");
+			// 	return false;
+            // }
+			// else if(document.registerDN.password.value.length==0)
+			// {
+			// 	alert("You must input a password");
+			// 	return false;
+			// }
+            // else if(document.registerDN.password.value.length < 12)
+            // {
+            //     alert("The password you entered is too small, please make it between 12 and 30 characters");
+			// 	return false;
+            // }
+			// else if(document.registerDN.password.value.length > 30)
+            // {
+            //     alert("The password you entered is too large, please make it between 12 and 30 character");
+			// 	return false;
+            // }
+            // else if(document.registerDN.password.value.match(/[!@#$%\^&*)(+=._-]+/) == null)
+			// {
+			// 	alert("You must include a special character in the password (!@#$%\^&*)(+=._-)");
+			// 	return false;
+			// }
+            // else if(document.registerDN.password.value.match(/[A-Z]+/) == null)
+			// {
+			// 	alert("You must include a capital letter in the password");
+			// 	return false;
+			// }
+            // else if(document.registerDN.password.value.match(/[0-9]+/) == null)
+			// {
+			// 	alert("You must include a number in the password");
+			// 	return false;
+			// }
+            // else if(document.registerDN.password.value.match(/[a-z]+/) == null)
+			// {
+			// 	alert("You must include a lowercase letter in the password");
+			// 	return false;
+			// }
+            // else if(document.registerDN.password.value.indexOf(document.register.username.value) > -1)
+			// {
+			// 	alert("The password cannot contain the username");
+			// 	return false;
+			// }
+            // else if(document.registerDN.match.value.length==0)
+            // {
+            //     alert("You must confirm the password");
+            //     return false;
+            // }
+			// else if(!(document.registerDN.password.value==document.registerDN.match.value))
+			// {
+			// 	alert("You failed to confirm the password, please try again.");
+			// 	return false;
+			// }
+			// else
+            // {
+			    alert("Thank you for submitting!");
+                return true;
+            // }
+		}
+
+        // function validateText(text)
+        // {
+        //     var re = /^[a-zA-Z\s]+$/;
+        //     return re.test(text);
+        // }
+	</script>
+
+    <script>
+        function openInfo(evt, infoType)
+        {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(infoType).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <script type='text/javascript'>
+        function addFields(){
+            // Number of inputs to create
+            var number = document.getElementById("member").value;
+            // Container <div> where dynamic content will be placed
+            var container = document.getElementById("acontainer");
+            // Clear previous contents of the container
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+            for (i=0;i<number;i++){
+                // Append a node with a random text
+                container.appendChild(document.createTextNode("Member " + (i+1)));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "text";
+                input.name = "member" + i;
+                container.appendChild(input);
+                // Append a line break
+                container.appendChild(document.createElement("br"));
+            }
+        }
+    </script>
+</head>
+
+<body>
+ <div class="container">
+<!--             <div id="formContainer">-->
+            <h1>Register Staff at {{ admin.workplace }}</h1>
+<!--  </div>-->
+            {% if error_message %}
+                <div id="alert" >
+                    <strong>{{ error_message }}</strong>
+                </div>
+            {% endif %}
+
+
+        <div class="stepwizard">
+            <div class="stepwizard-row setup-panel">
+                <div class="stepwizard-step col-xs-3">
+                    <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
+                    <p><small>Personal Information</small></p>
+                </div>
+                <div class="stepwizard-step col-xs-3">
+                    <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                    <p><small>Emergency Contact</small></p>
+                </div>
+                <div class="stepwizard-step col-xs-3">
+                    <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                    <p><small>Medical Information</small></p>
+                </div>
+                <div class="stepwizard-step col-xs-3">
+                    <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+                    <p><small>Account Information</small></p>
+                </div>
+            </div>
+        </div>
+
+        <form  name = 'register' action="{% url 'HealthNet:createDNLogIn' %}" method="post" >
+            {% csrf_token %}
+            <div class="panel panel-primary setup-content" id="step-1">
+                <div class="panel-heading">
+                     <h3 class="panel-title">Personal Information</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="control-label">First Name</label>
+                        <input maxlength="100" type="text" required="required" class="form-control" name="firstName" placeholder="Enter First Name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Last Name</label>
+                        <input maxlength="100" type="text" required="required" class="form-control" name="lastName" placeholder="Enter Last Name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Address</label>
+                        <input maxlength="100" type="address" required="required" class="form-control" name="address" placeholder="Enter Address" />
+                    </div>
+
+                      <div class="form-group">
+                        <label class="control-label">Licence Number</label>
+                        <input type="text" name="licid" required="required" class="form-control" name="address" placeholder="Enter Address" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label">Select State:</label>
+                        <select onchange="print_city('statee', this.selectedIndex);" id="stss" name ="cstate" class="form-control" required></select>
+                    </div>
+
+                    <div class="form-group">
+                        <b>Select City:</b>
+                        <select id ="statee" class="form-control" name="ccity" required></select>
+                        <script language="javascript">print_state("stss");</script>
+                    </div>
+
+
+
+
+                    <div class="form-group">
+                        <label class="control-label">Pincode</label>
+                        <input maxlength="100" type="text" name="czip" required="required" class="form-control" placeholder="Enter The Pincode" />
+                    </div>
+                    <div class="form-group">
+                        <b>Select a user type:</b>
+                    <select id="utype" style="display: block" name='type'>
+                        <option name="type" value="Please Select a User Type" selected disabled hidden>Please Select a User Type</option>
+                        <option name="type" value="Doctor">Doctor</option>
+                        <option name="type" value="Nurse">Nurse</option>
+                    </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Email</label>
+                        <input maxlength="100" type="Email" name="email" required="required" class="form-control" placeholder="Enter The Email" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Contact No.</label>
+                        <input maxlength="100" type="text" name="number" required="required" class="form-control" placeholder="Enter Contact No " />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Insurance Provider</label>
+                        <input maxlength="100" type="text" required="required" name="provider" class="form-control" placeholder="Enter The Insurance Provider" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Insurance Id</label>
+                        <input maxlength="100" type="text" required="required" name="insuranceid" class="form-control" placeholder="Enter The Insurance Id" />
+                    </div>
+                    <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+                </div>
+            </div>
+
+            <div class="panel panel-primary setup-content" id="step-2">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Emergency Contact</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="control-label">First Name</label>
+                        <input maxlength="200" type="text" name="contactfname" required="required" class="form-control" placeholder="Enter The Frist Name of your Contact" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Last Name</label>
+                        <input maxlength="200" type="text" name="contactlname" required="required" class="form-control" placeholder="Enter The Last Name of your Contact" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Address</label>
+                        <input maxlength="200" type="text" name="contactaddress" required="required" class="form-control" placeholder="Enter The Address of your Contact" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Select State:</label>
+                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="contactstate" class="form-control" required></select>
+                    </div>
+                    <div class="form-group">
+                        <b>Select City:</b>
+                        <select id ="state" class="form-control"  name="contactcity" required></select>
+                        <script language="javascript">print_state("sts");</script>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" >Pincode</label>
+                        <input maxlength="100" type="text" required="required" class="form-control" name="contactzip" placeholder="Enter The Pincode of your Contact" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Phone Number</label>
+                        <input maxlength="200" type="text" required="required" class="form-control" name="contactnumber" placeholder="Enter The PhoneNumber of your Contact" />
+                    </div>
+                    <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+                </div>
+            </div>
+
+            <div class="panel panel-primary setup-content" id="step-3">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Medical Information</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="control-label">Height</label>
+                        <input maxlength="200" type="text" required="required" class="form-control" name="height" placeholder="Enter The Height" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Weight</label>
+                        <input maxlength="1000" type="text" required="required" class="form-control" name="weight" placeholder="Enter The Weight" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Allergies</label>
+                        <input maxlength="1000" type="text" required="required" class="form-control" name="allergies" placeholder="Enter The Allergies You Have" />
+                    </div>
+                    <div class="form-group">
+                        <b>Select your gender:</b>
+                        <select class="form-control" name='gender'>
+                            <option name="placeholder" value="Please Select a Gender" selected disabled hidden>Please Select a Gender</option>
+                            <option name="gender1" value="Male">Male</option>
+                            <option name="gender2" value="Female">Female</option>
+                            <option name="gender3" value="Other">Other</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary nextBtn pull-right" type="button">Next</button>
+                </div>
+            </div>
+
+            <div class="panel panel-primary setup-content" id="step-4">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Account Information</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="control-label">UserName</label>
+                        <input maxlength="200" type="text" required="required" class="form-control" name="username" placeholder="Enter User Name" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Create Password</label>
+                        <input maxlength="200" type="text" required="required" class="form-control" name="password" placeholder="Enter Password" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Confirm Password</label>
+                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Confirm Password" />
+                    </div>
+                    <input class="btn btn-success pull-right" type="submit" value="submit"/>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

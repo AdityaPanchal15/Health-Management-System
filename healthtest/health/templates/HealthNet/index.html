@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/formPages.css' %}"/>
+<link rel='shortcut icon' href="{% static 'HAccelerator/images/favicon.ico' %}" type='images/favicon'/>
+
+<head>
+    <title>HealthNet | Login</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/style.css' %}">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        #particles-js {
+            height: 100%;
+            background: black;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 90%;
+            padding: 12px 20px;
+            margin: 8px 26px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 26px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            font-size: 20px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 4% auto 15% auto;
+            border: 1px solid #888;
+            width: 40%;
+            padding-bottom: 30px;
+        }
+
+        .close {
+            position: absolute;
+            right: 25px;
+            top: 0;
+            color: #000;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: red;
+            cursor: pointer;
+        }
+
+        .animate {
+            animation: zoom 1.5s
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+            to {
+                transform: scale(1)
+            }
+        }
+
+        .parallax {
+
+            background-image: url("{% static 'HAccelerator\images\bg-banner.jpg' %}");
+            min-height: 650px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #00b3b3;
+        }
+
+        #i2 {
+            width: 500px;
+
+
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        function checkform() {
+            if (document.login.username.value.length == 0) {
+                alert("Please fill in your username");
+                return false;
+            } else if (document.login.password.value.length == 0) {
+                alert("Please enter your password");
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+<div class="parallax">
+
+    <div style="background-color:#00b3b3;min-height: 650px;opacity:0.4;">
+
+    </div>
+
+</div>
+
+<br>
+<h1 id="i1">Welcome to Healthtest!</h1>
+<br><br>
+
+<button onclick="document.getElementById('modal-wrapper').style.display='block'"
+        style="position:fixed; width:200px;top:50px; right:50px; z-index: 0.5;background-color:#006666;">
+    Click Here
+</button>
+
+<div id="modal-wrapper" class="modal">
+    <form class="modal-content animate" action="{% url 'HealthNet:verify' %}" method="post">
+        <div class="imgcontainer">
+                <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"
+                      title="Close PopUp">
+                    &times;
+                </span>
+            <!--                <img src="1.png" alt="Avatar">-->
+            <h1>Enter the Details!!!</h1>
+        </div>
+
+        <div class="container" align="center" id="i2">
+
+            <form name='login' action="{% url 'HealthNet:verify' %}" method="post" onsubmit="return checkform();">
+                {% csrf_token %}
+                <input type="text" name="username" placeholder="Username" style="text-align:center;"/>
+                <input type="password" name="password" placeholder="Password" style="text-align:center;"/>
+                Select a user type:
+                <select id="utype" style="text-align:center;" name='type'>
+                    <option name="type" value="Please Select a User Type" selected disabled hidden>Please Select a User
+                        Type
+                    </option>
+                    <option name="type" value="Administrator">Admin</option>
+                    <option name="type" value="Doctor">Doctor</option>
+                    <option name="type" value="Nurse">Nurse</option>
+                    <option name="type" value="MedicStore">Medical Store</option>
+                    <option name="type" value="Lab">Lab</option>
+                    <option name="type" value="Patient">Patient</option>
+                </select>
+                <input class="button" type="submit" value="Log In" style="background-color:#006666;"/>
+            </form>
+
+
+            <form action="{% url 'HealthNet:registerP' %}">
+                <input class="button" type="submit" value="Register" style="background-color:#006666;"/>
+            </form>
+
+            <form action="{% url 'HealthNet:password' %}">
+                <input class="button" type="submit" value="Forgot Your Password?" style="background-color:#006666;"/>
+            </form>
+        </div>
+    </form>
+</div>
+
+
+<section id="service" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <h2 class="ser-title">Our Service</h2>
+                <hr class="botm-line">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    cillum.</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="service-info">
+                    <div class="icon">
+                        <i class="fa fa-stethoscope"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h4>24 Hour Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <div class="icon">
+                        <i class="fa fa-ambulance"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h4>Emergency Services</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="service-info">
+                    <div class="icon">
+                        <i class="fa fa-user-md"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h4>Medical Counseling</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <div class="icon">
+                        <i class="fa fa-medkit"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h4>Premium Healthcare</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    var modal = document.getElementById('modal-wrapper');
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+</head>
+<body>
+<form>
+<div id="pInfo" class="tabcontent">
+                    Enter your first name:
+                    <input type="text" name="firstName" style="display: block" placeholder="Ex.) First Name"/>
+                    Enter your last name:
+                    <input type="text" name="lastName" style="display: block" placeholder="Ex.) Last Name"/>
+      </div>
+       <div id="aInfo" class="tabcontent">
+                    Enter a username:
+                    <input type="text" name="username" style="display: block" placeholder="Username"/>
+                    Create a password:
+                    <input type="password" name="password" style="display: block" placeholder="Ex.) abcABC123!@#"/>
+                    Confirm the password:
+                    <input type="password" name="match" style="display: block" placeholder="Confirm Password"/>
+                </div>
+
+                <input type="submit" value="Submit" />
+            </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/mainPages.css' %}" />
+<!--<link rel='shortcut icon' href={% static 'HAccelerator/images/favicon.ico' %} type='images/favicon' />-->
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/font-awesome.min.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/style.css'%}">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/bootstrap.min.css' %}">
+<script src="{% static 'HAccelerator/js/jquery.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/cities.js '%}"></script>
+<script src="{% static 'HAccelerator/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'HAccelerator/js/form.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'HAccelerator/css/form.css' %}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HealthNet | ALLDOCS</title>
+</head>
+<body>
+    <div id="container">
+        <div id="tablecontainer">
+            <table  class="table table-striped">
+                <tr>
+                    <th style="text-align: center;" >ID</th>
+                    <th style="text-align: center;" >Doctor</th>
+                    <th style="text-align: center;" >Speciality</th>
+                    <th style="text-align: center;" >Hospital</th>
+                </tr>
+                {% for i in specs %}
+                    <tr>
+                        <td>{{ i.doctor.pid }}</td>
+                        <td>{{ i.doctor.firstName }} {{ i.doctor.lastName }}</td>
+                        <td>{{ i.speciality }}</td>
+                        <td>{{ i.hospital }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</body>
+</html>
